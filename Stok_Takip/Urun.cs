@@ -9,13 +9,11 @@ namespace Stok_Takip
     public class Urun
     {
         public int ID_Urun { get; set; }
-        public String Urun_Adi { get; set; }
         public DateTime Ekleme_Tarihi { get; set; }
-        public DateTime Cikis_Tarihi { get; set; }
-        public int Urun_Seri_No { get; set; }
+        public String Urun_Seri_No { get; set; }
         public int Urun_Adet { get; set; }
 
-       /* public string FullInfo 
+       /*public string FullInfo 
         { 
             get 
             {
@@ -23,5 +21,6 @@ namespace Stok_Takip
                 return str;
             } 
         }*/
+       
     }
 }

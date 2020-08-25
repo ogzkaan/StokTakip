@@ -1,23 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Dapper;
 
 namespace Stok_Takip
 {
-    class DapperDeneme
+    public partial class Personel_Form : Form
     {
-        static void Main(string[] args) 
+        public Personel_Form()
         {
-            Application.EnableVisualStyles(); 
-            Application.Run(new AnaSayfa());
+            InitializeComponent();
         }
-        
-
-        
-
     }
 }
