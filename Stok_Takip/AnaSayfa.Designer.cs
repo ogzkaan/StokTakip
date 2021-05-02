@@ -33,8 +33,8 @@
             this.islemButton = new FontAwesome.Sharp.IconButton();
             this.homeBtn = new System.Windows.Forms.PictureBox();
             this.iconButton5 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
+            this.projeBtn = new FontAwesome.Sharp.IconButton();
+            this.urunlerbtn = new FontAwesome.Sharp.IconButton();
             this.personelButton = new FontAwesome.Sharp.IconButton();
             this.titleBar = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -69,8 +69,8 @@
             this.SideMenu.Controls.Add(this.islemButton);
             this.SideMenu.Controls.Add(this.homeBtn);
             this.SideMenu.Controls.Add(this.iconButton5);
-            this.SideMenu.Controls.Add(this.iconButton4);
-            this.SideMenu.Controls.Add(this.iconButton3);
+            this.SideMenu.Controls.Add(this.projeBtn);
+            this.SideMenu.Controls.Add(this.urunlerbtn);
             this.SideMenu.Controls.Add(this.personelButton);
             this.SideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.SideMenu.Location = new System.Drawing.Point(0, 0);
@@ -134,53 +134,53 @@
             this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton5.UseVisualStyleBackColor = true;
-            this.iconButton5.Click += new System.EventHandler(this.iconButton5_Click);
+            this.iconButton5.Click += new System.EventHandler(this.islemButton_Click);
             // 
-            // iconButton4
+            // projeBtn
             // 
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton4.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton4.ForeColor = System.Drawing.Color.White;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.ProjectDiagram;
-            this.iconButton4.IconColor = System.Drawing.Color.White;
-            this.iconButton4.IconSize = 40;
-            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(0, 422);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.iconButton4.Rotation = 0D;
-            this.iconButton4.Size = new System.Drawing.Size(220, 84);
-            this.iconButton4.TabIndex = 4;
-            this.iconButton4.Text = " Projeler";
-            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton4.UseVisualStyleBackColor = true;
-            this.iconButton4.Click += new System.EventHandler(this.iconButton4_Click);
+            this.projeBtn.FlatAppearance.BorderSize = 0;
+            this.projeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.projeBtn.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.projeBtn.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.projeBtn.ForeColor = System.Drawing.Color.White;
+            this.projeBtn.IconChar = FontAwesome.Sharp.IconChar.ProjectDiagram;
+            this.projeBtn.IconColor = System.Drawing.Color.White;
+            this.projeBtn.IconSize = 40;
+            this.projeBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.projeBtn.Location = new System.Drawing.Point(0, 422);
+            this.projeBtn.Name = "projeBtn";
+            this.projeBtn.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.projeBtn.Rotation = 0D;
+            this.projeBtn.Size = new System.Drawing.Size(220, 84);
+            this.projeBtn.TabIndex = 4;
+            this.projeBtn.Text = " Projeler";
+            this.projeBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.projeBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.projeBtn.UseVisualStyleBackColor = true;
+            this.projeBtn.Click += new System.EventHandler(this.islemButton_Click);
             // 
-            // iconButton3
+            // urunlerbtn
             // 
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton3.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton3.ForeColor = System.Drawing.Color.White;
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.Boxes;
-            this.iconButton3.IconColor = System.Drawing.Color.White;
-            this.iconButton3.IconSize = 40;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(0, 332);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.iconButton3.Rotation = 0D;
-            this.iconButton3.Size = new System.Drawing.Size(220, 84);
-            this.iconButton3.TabIndex = 3;
-            this.iconButton3.Text = " Ürünler";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton3.UseVisualStyleBackColor = true;
-            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
+            this.urunlerbtn.FlatAppearance.BorderSize = 0;
+            this.urunlerbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.urunlerbtn.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.urunlerbtn.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.urunlerbtn.ForeColor = System.Drawing.Color.White;
+            this.urunlerbtn.IconChar = FontAwesome.Sharp.IconChar.Boxes;
+            this.urunlerbtn.IconColor = System.Drawing.Color.White;
+            this.urunlerbtn.IconSize = 40;
+            this.urunlerbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.urunlerbtn.Location = new System.Drawing.Point(0, 332);
+            this.urunlerbtn.Name = "urunlerbtn";
+            this.urunlerbtn.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.urunlerbtn.Rotation = 0D;
+            this.urunlerbtn.Size = new System.Drawing.Size(220, 84);
+            this.urunlerbtn.TabIndex = 3;
+            this.urunlerbtn.Text = " Ürünler";
+            this.urunlerbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.urunlerbtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.urunlerbtn.UseVisualStyleBackColor = true;
+            this.urunlerbtn.Click += new System.EventHandler(this.islemButton_Click);
             // 
             // personelButton
             // 
@@ -203,7 +203,7 @@
             this.personelButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.personelButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.personelButton.UseVisualStyleBackColor = true;
-            this.personelButton.Click += new System.EventHandler(this.personelButton_Click);
+            this.personelButton.Click += new System.EventHandler(this.islemButton_Click);
             // 
             // titleBar
             // 
@@ -304,7 +304,6 @@
             this.SignOut.BackColor = System.Drawing.Color.White;
             this.SignOut.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SignOut.FlatAppearance.BorderSize = 0;
-            this.SignOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SignOut.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.SignOut.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SignOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(178)))));
@@ -328,7 +327,6 @@
             this.SignIn.BackColor = System.Drawing.Color.White;
             this.SignIn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SignIn.FlatAppearance.BorderSize = 0;
-            this.SignIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SignIn.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.SignIn.Font = new System.Drawing.Font("Franklin Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SignIn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(178)))));
@@ -479,8 +477,8 @@
         private FontAwesome.Sharp.IconButton islemButton;
         private FontAwesome.Sharp.IconButton personelButton;
         private FontAwesome.Sharp.IconButton iconButton5;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private FontAwesome.Sharp.IconButton iconButton3;
+        private FontAwesome.Sharp.IconButton projeBtn;
+        private FontAwesome.Sharp.IconButton urunlerbtn;
         private System.Windows.Forms.PictureBox homeBtn;
         private System.Windows.Forms.Panel titleBar;
         private FontAwesome.Sharp.IconPictureBox childForm;

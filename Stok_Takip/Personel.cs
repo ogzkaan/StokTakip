@@ -10,9 +10,9 @@ namespace Stok_Takip
     {
         public int ID_Personel { get; set; }
         public String Isim { get; set; }
-        public DateTime Soy_Isim { get; set; }
+        public String Soy_Isim { get; set; }
         public String Sifre { get; set; }
-       
-
+        public String Kullanici_Adi { get; set; }
+        public int Yetki_Seviyesi { get; set; }
     }
 }
